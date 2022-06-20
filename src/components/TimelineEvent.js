@@ -22,7 +22,10 @@ const TimeLineEvent = (props) => {
     <ul>
       <li>Name: {props.person} </li>
       <li>Status: {props.status} </li>
-      <li> Timestamp: {props.timestamp}</li>
+      <li>
+        Timestamp, trying to render TimeStamp component: <TimeStamp></TimeStamp>
+      </li>
+      <li> Timestamp fom props: {props.timestamp}</li>
     </ul>
   );
 };
