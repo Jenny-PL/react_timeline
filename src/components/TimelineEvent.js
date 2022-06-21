@@ -1,4 +1,3 @@
-import { Component } from "react";
 import "./TimelineEvent.css";
 import TimeStamp from "./TimeStamp";
 
@@ -23,9 +22,10 @@ const TimeLineEvent = (props) => {
       <li>Name: {props.person} </li>
       <li>Status: {props.status} </li>
       <li>
-        Timestamp, trying to render TimeStamp component: <TimeStamp></TimeStamp>
+        Timestamp, trying to render TimeStamp component:{" "}
+        <TimeStamp time={props.timestamp}></TimeStamp>
       </li>
-      <li> Timestamp fom props: {props.timestamp}</li>
+      {/* <li> Timestamp fom props: {props.timestamp}</li> */}
     </ul>
   );
 };
