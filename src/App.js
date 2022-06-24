@@ -1,6 +1,7 @@
 import "./App.css";
 import timelineData from "./data/timeline.json";
 import Timeline from "./components/Timeline";
+import CityNameInput from "./components/CityNameInput";
 
 function App() {
   console.log("The value of timelineData is", timelineData);
@@ -8,6 +9,7 @@ function App() {
   return (
     <div>
       <Timeline timelineData={timelineData}></Timeline>
+      <CityNameInput></CityNameInput>
     </div>
   );
 }

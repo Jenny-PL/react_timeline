@@ -4,6 +4,7 @@
   color: white;
   position: fixed;
   width: 100%;
+  /* border: solid black 2px; */
 }
 
 .App-title {
@@ -14,8 +15,14 @@
 .App-main {
   padding-top: 7rem;
   background-color: #e6ecf0;
+
+
 }
 
 * {
   background-color:aquamarine;
+  margin: 0 auto;
+  max-width: 40em;
+  line-height: 1.5;
+  padding: .1em .25em;
 }
